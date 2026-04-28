@@ -27,7 +27,7 @@ function App(){
                 <div className="container">
                     <div className="section1-container">
                         <div className="travel">
-                            <h2>Explore and Travel</h2>
+                            <h2 className="amd">Explore and Travel</h2>
                             <div class="holiday-finder">
                             <h2>Holiday finder</h2>
                             <div class="line"></div>
@@ -70,7 +70,7 @@ function App(){
                         </div>
                         </div>
 
-                        <img src={travel} alt="" />
+                        <img className="trav" src={travel} alt="" />
                     </div>
                 </div>
             </section>

@@ -148,7 +148,20 @@ a:hover::after {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 100px;
+    padding-top: 105px;
+}
+
+.amd{
+    width: 350px;
+     font-weight: 700;
+    font-size: 64px;
+     line-height: 80px;
+    letter-spacing: 0%;
+    margin-bottom: 25px;
+
+}
+.trav{
+    width: 50%;
 }
 
 .holiday-finder {
