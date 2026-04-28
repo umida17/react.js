@@ -13,10 +13,10 @@ function App(){
                     <a href="#">Destinations</a>
                     <a href="#">About</a>
                     <a href="#">Partner</a>
-                     
+                    <button className="login">Login</button>
+                    <button className="regis">Register</button>
                   </div>
-                  <button>Login</button>
-                  <button>Register</button>
+               
                 </div>
             </div>
         </header>
