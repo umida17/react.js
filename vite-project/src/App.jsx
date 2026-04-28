@@ -1,6 +1,7 @@
 
 import "./App.css"
 import logo from "../src/assets/logo (8).png"
+import travel from "../src/assets/travel.png"
 function App(){
     return (
         <> 
@@ -20,6 +21,60 @@ function App(){
                 </div>
             </div>
         </header>
+
+        <main>
+            <section className="section1">
+                <div className="container">
+                    <div className="section1-container">
+                        <div className="travel">
+                            <h2>Explore and Travel</h2>
+                            <div class="holiday-finder">
+                            <h2>Holiday finder</h2>
+                            <div class="line"></div>
+
+                   <div class="finder-grid">
+                     <div class="select-wrapper">
+                                    <select name="location">
+                                        <option value="" disabled selected>Location</option>
+                                        <option value="uzbekistan">Uzbekistan</option>
+                                        <option value="europe">Europe</option>
+                                    </select>
+                                </div>
+
+                           <div class="select-wrapper">
+                            <select name="activity">
+                                        <option value="" disabled selected>Activity</option>
+                                        <option value="hiking">Hiking</option>
+                                        <option value="swimming">Swimming</option>
+                                    </select>
+                                </div>
+
+                           <div class="select-wrapper">
+                                <select name="grade">
+                                        <option value="" disabled selected>Grade</option>
+                                        <option value="easy">Easy</option>
+                                        <option value="hard">Hard</option>
+                                    </select>
+                                </div>
+
+                            <div class="select-wrapper">
+                                <select name="date">
+                                        <option value="" disabled selected>Date</option>
+                                        <option value="2024-05">May 2024</option>
+                                        <option value="2024-06">June 2024</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <button class="explore-btn">Explore</button>
+                        </div>
+                        </div>
+
+                        <img src={travel} alt="" />
+                    </div>
+                </div>
+            </section>
+        </main>
 
          </>
     )
