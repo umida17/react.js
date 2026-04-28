@@ -3,6 +3,7 @@ import "./App.css"
 import logo from "../src/assets/logo (8).png"
 import travel from "../src/assets/travel.png"
 import travel2 from "../src/assets/travel2.png"
+import image from "../src/assets/image 4 (2).png"
 function App(){
     return (
         <> 
@@ -101,7 +102,8 @@ function App(){
             </section>
 
         <section className="destinations">
-  <div className="destinations-header">
+        <div className="container">
+             <div className="destinations-header">
     <h2>Featured destinations</h2>
     <a href="#" className="view-all">View all </a>
   </div>
@@ -111,6 +113,7 @@ function App(){
       <div className="card-image">
        </div>
       <div className="card-info">
+        <img src={image} alt="" />
         <h3>Raja Ampat</h3>
         <p>Indonesia</p>
       </div>
@@ -130,6 +133,7 @@ function App(){
   <div className="decor plus-left">+</div>
   <div className="decor circle-top"></div>
   <div className="decor circle-bottom"></div>
+        </div>
 </section>
         
         </main>
