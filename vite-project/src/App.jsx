@@ -2,6 +2,7 @@
 import "./App.css"
 import logo from "../src/assets/logo (8).png"
 import travel from "../src/assets/travel.png"
+import travel2 from "../src/assets/travel2.png"
 function App(){
     return (
         <> 
@@ -71,6 +72,17 @@ function App(){
                         </div>
 
                         <img className="trav" src={travel} alt="" />
+                    </div>
+                </div>
+            </section>
+
+            <section className="section2">
+                <div className="container">
+                    <div className="section2-container">
+                          <img src={travel2} alt="" />    
+                          <div className="world">
+                            
+                            </div>  
                     </div>
                 </div>
             </section>

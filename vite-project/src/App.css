@@ -149,6 +149,7 @@ a:hover::after {
     align-items: center;
     justify-content: space-between;
     padding-top: 105px;
+    margin-bottom: 150px;
 }
 
 .amd{
