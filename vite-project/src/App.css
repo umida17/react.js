@@ -162,7 +162,7 @@ a:hover::after {
 
 }
 .trav{
-    width: 50%;
+    width: 48%;
 }
 
 .holiday-finder {
@@ -253,3 +253,15 @@ a:hover::after {
         grid-template-columns: 1fr;
     }
 }
+
+.section2-container{
+    display: flex;
+    align-items: center;
+     gap: 90px;
+    margin-bottom: 150px;
+}
+
+.havowari{
+    width: 40%;
+}
+

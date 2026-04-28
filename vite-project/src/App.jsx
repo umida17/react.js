@@ -79,7 +79,7 @@ function App(){
             <section className="section2">
                 <div className="container">
                     <div className="section2-container">
-                          <img src={travel2} alt="" />    
+                          <img className="havowari" src={travel2} alt="" />    
                           <div className="world">
                             <h3>A new way to explore the world </h3>
                             <p>For decades travellers have reached for Lonely Planet books when looking to plan and execute their perfect 
