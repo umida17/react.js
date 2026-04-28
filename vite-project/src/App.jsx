@@ -4,6 +4,9 @@ import logo from "../src/assets/logo (8).png"
 import travel from "../src/assets/travel.png"
 import travel2 from "../src/assets/travel2.png"
 import image from "../src/assets/image 4 (2).png"
+import tog from "../src/assets/tog'.png"
+import daryo from "../src/assets/daryo.png"
+import piknik from "../src/assets/piknik.png"
 function App(){
     return (
         <> 
@@ -110,22 +113,43 @@ function App(){
 
   <div className="destinations-grid">
     <div className="card">
-      <div className="card-image">
-       </div>
+         <img className="card-image" src={image} alt="" />
       <div className="card-info">
-        <img src={image} alt="" />
         <h3>Raja Ampat</h3>
         <p>Indonesia</p>
+      </div>
+    </div>
+
+
+    <div className="card">
+         <img className="card-image" src={tog} alt="" />
+      <div className="card-info">
+        <h3>Fanjingshan</h3>
+        <p>China</p>
+      </div>
+    </div>
+
+
+    <div className="card">
+         <img className="card-image" src={daryo} alt="" />
+      <div className="card-info">
+        <h3>Vevey</h3>
+        <p>Switzerland</p>
+      </div>
+    </div>
+
+
+    <div className="card">
+         <img className="card-image" src={piknik} alt="" />
+      <div className="card-info">
+        <h3>Skadar</h3>
+        <p>Montenegro</p>
       </div>
     </div>
 
     
 
     </div>
-
-  <div className="decor plus-left">+</div>
-  <div className="decor circle-top"></div>
-  <div className="decor circle-bottom"></div>
         </div>
 </section>
         
