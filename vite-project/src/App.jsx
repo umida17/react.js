@@ -73,6 +73,10 @@ function App(){
 
                         <img className="trav" src={travel} alt="" />
                     </div>
+                    <div class="decor-circle circle-1"></div>
+                <div class="decor-circle circle-2"></div>
+                <div class="decor-circle circle-3"></div>
+                <div class="decor-plus plus-1">+</div>
                 </div>
             </section>
 
@@ -81,13 +85,19 @@ function App(){
                     <div className="section2-container">
                           <img className="havowari" src={travel2} alt="" />    
                           <div className="world">
+                            <div className="about-section">
+                        <div class="decor-element top-orange-plus">+</div>
+                          <div class="decor-element bottom-right-circle"></div></div>
                             <h3 className="way">A new way to explore the world </h3>
                             <p className="for">For decades travellers have reached for Lonely Planet books when looking to plan and execute their perfect 
                             trip, but now, they can also let Lonely Planet Experiences lead the way</p>
-                            <button>Learn more</button>
+                            <button className="more">Learn more</button>
+                            
                             </div>  
+                      
                     </div>
-                </div>
+                   
+                 </div>
             </section>
         </main>
 

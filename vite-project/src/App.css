@@ -147,11 +147,80 @@ a:hover::after {
 .section1-container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding-top: 105px;
+    gap: 200px;
+    padding-top: 115px;
     margin-bottom: 150px;
 }
 
+
+/* Asosiy konteyner */
+.hero-section { /* O'zingizni konteyneringiz nomi */
+    position: relative;
+    overflow: hidden; /* Elementlar ekrandan chiqib ketmasligi uchun */
+    padding: 50px;
+}
+
+/* Umumiy stillar */
+.decor-circle {
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid #A6E6D3; /* Yashilroq xalqalar uchun */
+    width: 20px;
+    height: 20px;
+    z-index: -1; /* Matn va rasmlarning orqasida turishi uchun */
+}
+
+.decor-plus {
+    position: absolute;
+    color: #FB8F1D;
+    font-size: 24px;
+    font-weight: bold;
+    z-index: -1;
+}
+
+/* Elementlarning aniq pozitsiyalari (Rasmga qarab) */
+
+/* Chap tomondagi yashil dumaloq */
+.circle-1 {
+    top: 45%;
+    left: 2%;
+    width: 25px;
+    height: 25px;
+    border-color: #26D0B1;
+}
+
+/* O'rtadagi pastki qismdagi dumaloq */
+.circle-2 {
+    bottom: 10%;
+    left: 45%;
+    border-color: #A6E6D3;
+}
+
+/* O'ng tomondagi kichik dumaloq (rasm ichida) */
+.circle-3 {
+    top: 20%;
+    right: 15%;
+    width: 12px;
+    height: 12px;
+    border-color: #FB8F1D; /* To'q sariq dumaloqcha bo'lsa */
+}
+
+ 
+.plus-1 {
+    top: 10%;
+    left: 40%;
+    margin-top: 100px;
+    transform: rotate(15deg);
+}
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+
+.decor-circle, .decor-plus {
+    animation: float 4s ease-in-out infinite;
+}
 .amd{
     width: 350px;
      font-weight: 700;
@@ -279,9 +348,68 @@ a:hover::after {
 }
 
 .for{
+    width: 392px;
      font-weight: 300;
     font-size: 17px;
      line-height: 30px;
     letter-spacing: 0%;
     color: #7D7987;
+    margin-bottom: 30px;
+}
+
+.more{
+    background: #FB8F1D;
+    border-radius: 8px;
+    width: 140px;
+    color: white;
+     font-weight: 600;
+    font-size: 16px;
+     line-height: 40px;
+    letter-spacing: 0%;
+    border: none;
+}
+
+ 
+.about-section {  
+    position: relative;
+    overflow: hidden;  
+    padding: 60px;    
+}
+
+ .decor-element {
+    position: absolute;
+    z-index: 99911;  
+    pointer-events: none;  
+    
+}
+
+ .top-orange-plus {
+    top: 5%;    
+    left: 8%;   
+    color: #FFC06A; 
+    font-size: 28px;
+    font-weight: bold;
+    transform: rotate(10deg);  
+}
+
+ 
+
+ .bottom-right-circle {
+    bottom: 25%;  
+    right: 20%;   
+    width: 25px;
+    height: 25px;
+    border: 3px solid #6EDBBF;  
+    border-radius: 50%;
+    background: transparent;  
+}
+
+ @keyframes floatDeco {
+    0% { transform: translate(0, 0); }
+    50% { transform: translate(-5px, -8px); }
+    100% { transform: translate(0, 0); }
+}
+
+.top-orange-plus, .bottom-right-circle {
+    animation: floatDeco 5s ease-in-out infinite;
 }
