@@ -265,3 +265,23 @@ a:hover::after {
     width: 40%;
 }
 
+.world{
+    width: 480px;
+}
+
+.way{
+     font-weight: 700;
+    font-size: 36px;
+     line-height: 50px;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.for{
+     font-weight: 300;
+    font-size: 17px;
+     line-height: 30px;
+    letter-spacing: 0%;
+    color: #7D7987;
+}
