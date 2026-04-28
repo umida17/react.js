@@ -326,7 +326,7 @@ a:hover::after {
 .section2-container{
     display: flex;
     align-items: center;
-     gap: 90px;
+     justify-content: space-between;
     margin-bottom: 150px;
 }
 
@@ -363,10 +363,15 @@ a:hover::after {
     width: 140px;
     color: white;
      font-weight: 600;
-    font-size: 16px;
+    font-size: 14px;
      line-height: 40px;
-    letter-spacing: 0%;
-    border: none;
+     border: none;
+}
+.more:hover{
+    border: 2px solid #FB8F1D;
+    background: none;
+    color: #FB8F1D;
+     
 }
 
  
@@ -412,4 +417,118 @@ a:hover::after {
 
 .top-orange-plus, .bottom-right-circle {
     animation: floatDeco 5s ease-in-out infinite;
+}
+
+
+.destinations {
+  position: relative;
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.destinations-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.destinations-header h2 {
+  font-size: 32px;
+  color: #202336;
+}
+
+.view-all {
+  color: #FB8F1D;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Grid tizimi */
+.destinations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+/* Kartochka dizayni */
+.card {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden; /* Rasmni burchaklarini kesish uchun */
+  height: 350px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Kartochka pastidagi oq qism (Shahar nomi) */
+.card-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  padding: 10px 20px 0 0;
+  border-top-right-radius: 12px; /* Rasmda ko'ringan o'sha kesilgan burchak */
+  min-width: 120px;
+}
+
+.card-info h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #202336;
+}
+
+.card-info p {
+  margin: 5px 0 0 0;
+  font-size: 14px;
+  color: #848484;
+}
+
+/* DEKORATIV ELEMENTLAR (O'sha plyus va dumaloqlar) */
+.decor {
+  position: absolute;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.plus-left {
+  left: -20px;
+  top: 50%;
+  color: #FB8F1D;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.circle-top {
+  top: 10%;
+  right: 15%;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #A6E6D3;
+  border-radius: 50%;
+}
+
+.circle-bottom {
+  bottom: 5%;
+  left: 50%;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #A6E6D3;
+  border-radius: 50%;
 }

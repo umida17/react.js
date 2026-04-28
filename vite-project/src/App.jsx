@@ -99,6 +99,39 @@ function App(){
                    
                  </div>
             </section>
+
+        <section className="destinations">
+  <div className="destinations-header">
+    <h2>Featured destinations</h2>
+    <a href="#" className="view-all">View all </a>
+  </div>
+
+  <div className="destinations-grid">
+    <div className="card">
+      <div className="card-image">
+       </div>
+      <div className="card-info">
+        <h3>Raja Ampat</h3>
+        <p>Indonesia</p>
+      </div>
+    </div>
+
+    <div className="card">
+      <div className="card-image">
+       </div>
+      <div className="card-info">
+        <h3>Fanjingshan</h3>
+        <p>China</p>
+      </div>
+    </div>
+
+    </div>
+
+  <div className="decor plus-left">+</div>
+  <div className="decor circle-top"></div>
+  <div className="decor circle-bottom"></div>
+</section>
+        
         </main>
 
          </>
