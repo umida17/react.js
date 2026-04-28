@@ -419,15 +419,29 @@ a:hover::after {
     animation: floatDeco 5s ease-in-out infinite;
 }
 
-.destinations-header{
+.destinations-section3{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 56px;
 }
-
-
-
+.destinations-grid{
+    margin-bottom: 150px;
+}
+.reat{
+     font-weight: 700;
+    font-size: 36px;
+     line-height: 50px;
+    letter-spacing: 0%;
+}
+.view-all {
+  color: #FB8F1D;
+  text-decoration: none;
+  font-weight: 600;
+}
+.card{
+    width: 260px;
+}
 
 
 .decor {

@@ -103,8 +103,8 @@ function App(){
 
         <section className="destinations">
         <div className="container">
-             <div className="destinations-header">
-    <h2>Featured destinations</h2>
+             <div className="destinations-section3">
+    <h2 className="reat">Featured destinations</h2>
     <a href="#" className="view-all">View all </a>
   </div>
 
@@ -119,14 +119,7 @@ function App(){
       </div>
     </div>
 
-    <div className="card">
-      <div className="card-image">
-       </div>
-      <div className="card-info">
-        <h3>Fanjingshan</h3>
-        <p>China</p>
-      </div>
-    </div>
+    
 
     </div>
 
