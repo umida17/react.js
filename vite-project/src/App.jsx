@@ -1,5 +1,6 @@
 
 import "./App.css"
+import "./Components/Header"
 
 import travel from "../src/assets/travel.png"
 import travel2 from "../src/assets/travel2.png"
