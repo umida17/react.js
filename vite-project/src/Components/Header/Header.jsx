@@ -1,5 +1,5 @@
 import logo from "../src/assets/logo (8).png"
-
+import "./Hrader.css"
 
 function Header() {
     return(
