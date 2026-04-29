@@ -8,7 +8,7 @@ import tog from "../src/assets/tog'.png"
 import daryo from "../src/assets/daryo.png"
 import piknik from "../src/assets/piknik.png"
 import Thousand from "../src/assets/Thousand-03.png"
-import foto from "../src/assets/foto.png"
+ 
 function App(){
     return (
         <> 
@@ -169,7 +169,7 @@ function App(){
             </div>
            </section>
 
-  
+        
         
         </main>
 
