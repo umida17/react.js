@@ -1,6 +1,6 @@
 
 import "./App.css"
-import logo from "../src/assets/logo (8).png"
+
 import travel from "../src/assets/travel.png"
 import travel2 from "../src/assets/travel2.png"
 import image from "../src/assets/image 4 (2).png"
