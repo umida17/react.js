@@ -12,7 +12,7 @@ function Header() {
                <div className="header-container">
                 <img src={logo} alt="" />
                 <div className="registir">
-                    
+
                 </div>
                 </div> 
             </div>
@@ -20,3 +20,5 @@ function Header() {
          </> 
     )
 }
+
+export default Header;
