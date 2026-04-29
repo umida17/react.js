@@ -24,18 +24,18 @@
 
 .hero-section { 
     position: relative;
-    overflow: hidden; /* Elementlar ekrandan chiqib ketmasligi uchun */
+    overflow: hidden; 
+    
     padding: 50px;
 }
 
-/* Umumiy stillar */
 .decor-circle {
     position: absolute;
     border-radius: 50%;
-    border: 2px solid #A6E6D3; /* Yashilroq xalqalar uchun */
+    border: 2px solid #A6E6D3; 
     width: 20px;
     height: 20px;
-    z-index: -1; /* Matn va rasmlarning orqasida turishi uchun */
+    z-index: -1; 
 }
 
 .decor-plus {
@@ -46,9 +46,7 @@
     z-index: -1;
 }
 
-/* Elementlarning aniq pozitsiyalari (Rasmga qarab) */
 
-/* Chap tomondagi yashil dumaloq */
 .circle-1 {
     top: 45%;
     left: 2%;
@@ -57,7 +55,6 @@
     border-color: #26D0B1;
 }
 
-/* O'rtadagi pastki qismdagi dumaloq */
 .circle-2 {
     bottom: 10%;
     left: 45%;
