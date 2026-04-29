@@ -357,21 +357,51 @@ a:hover::after {
     margin-bottom: 30px;
 }
 
-.more{
-    background: #FB8F1D;
+.more {
+     background: transparent;     
+    color: #FB8F1D;             
+    border: 2px solid #FB8F1D;   
     border-radius: 8px;
     width: 140px;
-    color: white;
-     font-weight: 600;
+    height: 44px;               
+    
+    font-weight: 600;
     font-size: 14px;
-     line-height: 40px;
-     border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+     position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: color 0.4s ease;
 }
-.more:hover{
-    border: 2px solid #FB8F1D;
-    background: none;
-    color: #FB8F1D;
-     
+
+ .more::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;                    
+    height: 100%;
+    background: #FB8F1D;         
+    transition: width 0.4s ease;
+    z-index: -1;                
+}
+
+ 
+.more:hover {
+    color: white;              
+}
+
+.more:hover::before {
+    width: 100%;                
+}
+
+ 
+.more:active {
+    transform: scale(0.96);      
 }
 
  
@@ -450,11 +480,15 @@ a:hover::after {
 }
 
 .card {
-    position: relative; /* Bu juda muhim: info shunga qarab joylashadi */
-    width: 260px;       /* O'zingizga mos o'lcham */
+    position: relative;  
+    width: 260px;       
     height: 350px;
     border-radius: 8px;
     overflow: hidden;
+    transition: all 0.6s ease-in-out;
+}
+.card:hover{
+    transform: translateY(14px);
 }
 
 .card img {
@@ -487,3 +521,66 @@ a:hover::after {
 }
 
 
+.section4-container{
+    display: flex;
+    align-items: center;
+    gap: 120px;
+     margin-bottom: 150px;
+}
+
+.sunny{
+    width: 400px;
+}
+.sunny h3{
+     font-weight: 700;
+    font-size: 36px;
+     line-height: 50px;
+    letter-spacing: 0%;
+    margin-bottom: 20px;
+}
+
+.sunny p{
+     font-weight: 300;
+    font-size: 17px;
+     line-height: 30px;
+    letter-spacing: 0%;
+    color: #7D7987;
+    margin-bottom: 30px;
+}
+
+.sunny button {
+     background: #FB8F1D;
+    color: white;
+    border: 2px solid #FB8F1D;  
+    border-radius: 8px;
+    
+     
+    font-weight: 600;
+    font-size: 14px;
+    height: 44px;  
+    width: 140px;
+    cursor: pointer;
+    
+     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);  
+    position: relative;
+    overflow: hidden;
+}
+
+.sunny button:hover {
+    background: transparent;
+    color: #FB8F1D;
+      
+     box-shadow: 0 4px 12px rgba(251, 143, 29, 0.3);
+    transform: translateY(-2px);  
+}
+
+ .sunny button:active {
+    transform: translateY(0);
+    scale: 0.98;
+}
+
+ 

@@ -7,6 +7,8 @@ import image from "../src/assets/image 4 (2).png"
 import tog from "../src/assets/tog'.png"
 import daryo from "../src/assets/daryo.png"
 import piknik from "../src/assets/piknik.png"
+import Thousand from "../src/assets/Thousand-03.png"
+import foto from "../src/assets/foto.png"
 function App(){
     return (
         <> 
@@ -104,7 +106,7 @@ function App(){
                  </div>
             </section>
 
-        <section className="destinations">
+           <section className="destinations">
         <div className="container">
              <div className="destinations-section3">
     <h2 className="reat">Featured destinations</h2>
@@ -151,7 +153,23 @@ function App(){
 
     </div>
         </div>
-</section>
+           </section>
+
+
+           <section className="section4">
+            <div className="container">
+                <div className="section4-container">
+                    <div className="sunny">
+                        <h3>Guides by Thousand Sunny</h3>
+                        <p>Packed with tips and advice from our on-the-ground experts, our city guides app (iOS and Android) is the ultimate resource before and during a trip.</p>
+                        <button>Download</button>
+                    </div>
+                    <img className="thous" src={Thousand} alt="" />
+                </div>
+            </div>
+           </section>
+
+  
         
         </main>
 
