@@ -22,7 +22,7 @@
 }
 
 
-.hero-section { /* O'zingizni konteyneringiz nomi */
+.hero-section { 
     position: relative;
     overflow: hidden; /* Elementlar ekrandan chiqib ketmasligi uchun */
     padding: 50px;
