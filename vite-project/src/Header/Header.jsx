@@ -1,31 +1,29 @@
 
-import Header from "../Components/Header/Header/Header";
 
-import "./Header.css"
-import logo from "../assets/logo (8).png"
+ import "./Header.css";
+import logo from "..scr/assets/logo (8).png";
 
 function Header() {
-    return(
-         <>
-         <header>
-            <div className="container">
-               <div className="header-container">
-                <img src={logo} alt="" />
-                <div className="registir">
-                    <a href="#">Home</a> 
-                    <a href="#">Destinations</a>        
-                    <a href="#">About</a>           
-                    <a href="#">Partner</a> 
-                    <button className="login">Login</button>
-                    <button className="regis">Register</button>
-                    
-
+    return (
+        <> 
+            <header>
+                <div className="container">
+                    <div className="header-container">
+                        <img src={logo} alt="Logo" />
+                        <div className="registir">
+                            <a href="#">Home</a> 
+                            <a href="#">Destinations</a>        
+                            <a href="#">About</a>           
+                            <a href="#">Partner</a> 
+                            
+                            <button className="login">Login</button>
+                            <button className="regis">Register</button>
+                        </div>
+                    </div> 
                 </div>
-                </div> 
-            </div>
-         </header>
-         </> 
-    )
+            </header>
+        </> 
+    );
 }
 
 export default Header;
