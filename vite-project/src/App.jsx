@@ -13,7 +13,7 @@ import Thousand from "../src/assets/Thousand-03.png"
 function App(){
     return (
         <> 
-        <Header />
+   
 
         {/* <main>
             <section className="section1">

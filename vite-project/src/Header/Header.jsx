@@ -1,7 +1,7 @@
 
 
  import "./Header.css";
-import logo from "..scr/assets/logo (8).png";
+import logo from "../scr/assets/logo (8).png";
 
 function Header() {
     return (
