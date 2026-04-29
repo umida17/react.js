@@ -15,7 +15,7 @@ function App(){
         <> 
         <Header />
 
-        <main>
+        {/* <main>
             <section className="section1">
                 <div className="container">
                     <div className="section1-container">
@@ -157,7 +157,7 @@ function App(){
 
         
         
-        </main>
+        </main> */}
 
          </>
     )
