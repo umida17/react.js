@@ -12,6 +12,13 @@ function Header() {
                <div className="header-container">
                 <img src={logo} alt="" />
                 <div className="registir">
+                    <a href="#">Home</a> 
+                    <a href="#">Destinations</a>        
+                    <a href="#">About</a>           
+                    <a href="#">Partner</a> 
+                    <button className="login">Login</button>
+                    <button className="regis">Register</button>
+                    
 
                 </div>
                 </div> 
