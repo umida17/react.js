@@ -10,6 +10,10 @@ import piknik from "../src/assets/piknik.png"
 import Thousand from "../src/assets/Thousand-03.png"
 import group from "../src/assets/Group (10).png"
 import foto from "../src/assets/foto.png"
+import tabiat from "../src/assets/image 12 (3).png"   
+import imom from "../src/assets/image 13 (1).png"   
+import mask from "../src/assets/Mask Group (21).png"   
+import mader from "../src/assets/Mask Group (22).png"   
  
  
 function App(){
@@ -205,27 +209,28 @@ function App(){
         </div>
 
         <div className="trending__grid">
+            
            <div className="card">
-                 <img src="rasm2.jpg" alt="Story" className="card__image">
+                 <img src={tabiat} alt="card__image" />
                 <h3 className="card__title">The best Kyoto restaurant to try Japanese food</h3>
                 <p className="card__desc">From tofu to teahouses, here's our guide to Kyoto’s best restaurants to visit...</p>
                 <a href="#" className="card__link">Read more</a>
             </div>
 
-            <div className="card">
-                 <img src="rasm2.jpg" alt="Story" className="card__image">
+            <div className="card1">
+                 <img src={imom} alt="card__image" />
                 <h3 className="card__title">The best Kyoto restaurant to try Japanese food</h3>
                 <p className="card__desc">From tofu to teahouses, here's our guide to Kyoto’s best restaurants to visit...</p>
                 <a href="#" className="card__link">Read more</a>
             </div>
-            <div className="card">
-                 <img src="rasm2.jpg" alt="Story" className="card__image">
+            <div className="card2">
+                 <img src={mask} alt= "card__image" />
                 <h3 className="card__title">The best Kyoto restaurant to try Japanese food</h3>
                 <p className="card__desc">From tofu to teahouses, here's our guide to Kyoto’s best restaurants to visit...</p>
                 <a href="#" className="card__link">Read more</a>
             </div>
-           <div className="card">
-                 <img src="rasm2.jpg" alt="Story" className="card__image">
+           <div className="card3">
+                 <img src={mader} alt=""/>
                 <h3 className="card__title">The best Kyoto restaurant to try Japanese food</h3>
                 <p className="card__desc">From tofu to teahouses, here's our guide to Kyoto’s best restaurants to visit...</p>
                 <a href="#" className="card__link">Read more</a>
