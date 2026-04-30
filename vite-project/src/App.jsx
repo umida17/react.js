@@ -241,6 +241,55 @@ function App(){
 
         </main>
 
+
+        <footer class="footer">
+  <div class="footer-container">
+    <div class="footer-left">
+      <div class="footer-logo">O</div>
+      <p class="footer-desc">Plan and book your perfect trip with expert advice, travel tips destination information from us</p>
+      <p class="footer-copy">©2020 Thousand Sunny. All rights reserved</p>
+    </div>
+    
+    <div class="footer-col">
+      <h3>Destinations</h3>
+      <a href="#">Africa</a>
+      <a href="#">Antarctica</a>
+      <a href="#">Asia</a>
+      <a href="#">Europe</a>
+      <a href="#">America</a>
+    </div>
+
+    <div class="footer-col">
+      <h3>Shop</h3>
+      <a href="#">Destination Guides</a>
+      <a href="#">Pictorial & Gifts</a>
+      <a href="#">Special Offers</a>
+      <a href="#">Delivery Times</a>
+      <a href="#">FAQs</a>
+    </div>
+
+    <div class="footer-col">
+      <h3>Interests</h3>
+      <a href="#">Adventure Travel</a>
+      <a href="#">Art And Culture</a>
+      <a href="#">Wildlife And Nature</a>
+      <a href="#">Family Holidays</a>
+      <a href="#">Food And Drink</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    
+    <div class="footer-socials">
+      <a href="#">Twitter</a>
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">YouTube</a>
+    </div>
+  </div>
+        </footer>
+
          </>
     )
 }
