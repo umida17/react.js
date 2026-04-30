@@ -201,11 +201,11 @@ function App(){
             </section>
 
 
-            <section className="trending">
-                <div className="trending__container">
+            <section className="section6">
+                <div className="container">
                   <div className="trending__top">
             <h2 className="trending__title">Trending stories</h2>
-            <a href="#" className="trending__view-all">View all</a>
+            <a href="#" className="all">View all</a>
         </div>
 
         <div className="trending__grid">

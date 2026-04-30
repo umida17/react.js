@@ -559,6 +559,25 @@ a:hover::after {
 }
 
 
+.trending__top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
 
+.trending__title{
+     font-weight: 700;
+    font-size: 36px;
+     line-height: 50px;
+    letter-spacing: 0%
+}
+
+.all{
+     font-weight: 600;
+    font-size: 17px;
+     line-height: 60px;
+    letter-spacing: 0%;
+}
 
  
