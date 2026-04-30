@@ -600,8 +600,25 @@ a:hover::after {
 .card__title{
      font-weight: 700;
     font-size: 19px;
-     line-height: 30px;
+     line-height: 20px;
     letter-spacing: 0%;
-    
+    width: 220px;
+    margin-bottom: 10px;
+}
+
+.desc{
+     font-weight: 400;
+    font-size: 15px;
+     line-height: 26px;
+    letter-spacing: 0%;
+    color: #7D7987;
+}
+
+.read{
+     font-weight: 600;
+    font-size: 15px;
+     line-height: 28px;
+    letter-spacing: 0%;
+    color: #FB8F1D;
 }
  

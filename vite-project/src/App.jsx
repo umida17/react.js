@@ -212,9 +212,9 @@ function App(){
 
            <div className="card7">
                  <img className="tabiy" src={tabiat} alt="card__image" />
-                <h3 className="card__title">The best Kyoto restaurant to try Japanese food</h3>
-                <p className="card__desc">From tofu to teahouses, here's our guide to Kyoto’s best restaurants to visit...</p>
-                
+                <h3 className="card__title">The many benefits of taking a healing holiday</h3>
+                <p className="desc">‘Helaing holidays’ are on the rise tohelp maximise your health and happines...</p>
+                <a className="read" href="#">Read more</a>
             </div>
 
             <div className="card8">
