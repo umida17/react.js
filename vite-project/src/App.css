@@ -13,7 +13,7 @@
 }
 
 header {
-    height: 100px;
+    height: 70px;
     background: #e8e7e9;
      position: fixed;    
     top: 0;             
@@ -37,27 +37,58 @@ header {
 
 a {
     position: relative;
-    text-decoration: none; /* Standart chiziqni olib tashlash */
+    text-decoration: none;  
     color: #333;
-    padding-bottom: 4px; /* Chiziq bilan matn orasidagi masofa */
+    padding-bottom: 4px; 
 }
 
-/* Chiziqni hosil qiluvchi qism */
-a::after {
+ a::after {
     content: '';
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 0%;      /* Dastlab chiziq ko'rinmaydi */
-    height: 2px;    /* Chiziq qalinligi */
-    background-color: #007bff; /* Chiziq rangi */
-    transition: width 0.3s ease; /* Silliq animatsiya */
-}
-
-/* Hover bo'lganda chiziq kengayadi */
+    width: 0%;      
+    height: 2px;    
+    background-color: #007bff;  
+    transition: width 0.3s ease;  
+ }
 a:hover::after {
     width: 100%;
 }
+
+.login {
+    background: white;
+    border: 2px solid #FB8F1D;
+    color: #FB8F1D;
+    padding: 6px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login:hover {
+    background: #FB8F1D;
+    color: white;
+    box-shadow: 1px 1px 1px 1px #fdcc98;
+}
+
+.regis {
+    background: #FB8F1D;
+    color: white;
+    padding: 7px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 1px solid transparent; 
+}
+
+.regis:hover {
+    background: white;
+    color: #FB8F1D;
+    border: 1px solid #FB8F1D;
+    box-shadow: 1px 1px 1px 1px #FB8F1D;
+}
+
 .section1-container{
     display: flex;
     align-items: center;
