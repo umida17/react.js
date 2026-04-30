@@ -23,6 +23,41 @@ header {
     background-position: center;
 }
 
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.registir{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+a {
+    position: relative;
+    text-decoration: none; /* Standart chiziqni olib tashlash */
+    color: #333;
+    padding-bottom: 4px; /* Chiziq bilan matn orasidagi masofa */
+}
+
+/* Chiziqni hosil qiluvchi qism */
+a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;      /* Dastlab chiziq ko'rinmaydi */
+    height: 2px;    /* Chiziq qalinligi */
+    background-color: #007bff; /* Chiziq rangi */
+    transition: width 0.3s ease; /* Silliq animatsiya */
+}
+
+/* Hover bo'lganda chiziq kengayadi */
+a:hover::after {
+    width: 100%;
+}
 .section1-container{
     display: flex;
     align-items: center;
