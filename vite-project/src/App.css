@@ -665,7 +665,7 @@ a:hover::after {
 
 .footer {
      padding: 60px 20px;
-      background: #fff; 
+      background: #F9F9FB; 
       font-family: sans-serif;
      }
 
@@ -745,7 +745,7 @@ a:hover::after {
     text-decoration: none;
      font-size: 14px; 
     }
-    
+
 
 @media (max-width: 768px) {
   .footer-container { 
