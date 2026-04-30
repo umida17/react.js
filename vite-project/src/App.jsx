@@ -9,6 +9,7 @@ import daryo from "../src/assets/daryo.png"
 import piknik from "../src/assets/piknik.png"
 import Thousand from "../src/assets/Thousand-03.png"
 import group from "../src/assets/Group (10).png"
+import foto from "../src/assets/foto.png"
  
  
 function App(){
@@ -175,9 +176,22 @@ function App(){
 
             <section className="section5">
                 <div className="container">
+                     <h3 className="test">Testimonials</h3>
                     <div className="section5-container">
-                        <h3>Testimonials</h3>
+                    <div className="section5-left">
+                          <div className="yulduzcha">
                          <img src={group} alt="" />
+                         <img src={group} alt="" />
+                         <img src={group} alt="" />
+                         <img src={group} alt="" />
+                         <img src={group} alt="" />
+                     </div>
+                        <p>“Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu, facilisis quis purus. Morbi blandit sit amet turpis nec”</p>
+                        <h4>Edward Newgate</h4>
+                        <p>Founder Circle</p>
+                    </div>
+
+                    <img src={foto} alt="" />
                     </div>
                 </div>
             </section>

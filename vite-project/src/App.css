@@ -137,13 +137,12 @@ a:hover::after {
     border-color: #A6E6D3;
 }
 
-/* O'ng tomondagi kichik dumaloq (rasm ichida) */
-.circle-3 {
+ .circle-3 {
     top: 20%;
     right: 15%;
     width: 12px;
     height: 12px;
-    border-color: #FB8F1D; /* To'q sariq dumaloqcha bo'lsa */
+    border-color: #FB8F1D;  
 }
 
  
@@ -524,4 +523,8 @@ a:hover::after {
     scale: 0.98;
 }
 
+
+.test{
+    
+}
  
