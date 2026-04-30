@@ -208,28 +208,28 @@ function App(){
             <a href="#" className="all">View all</a>
         </div>
 
-        <div className="trending__grid">
+        <div className="trending">
 
-           <div className="card">
-                 <img src={tabiat} alt="card__image" />
+           <div className="card7">
+                 <img className="tabiy" src={tabiat} alt="card__image" />
                 <h3 className="card__title">The best Kyoto restaurant to try Japanese food</h3>
                 <p className="card__desc">From tofu to teahouses, here's our guide to Kyoto’s best restaurants to visit...</p>
-                <a href="#" className="card__link">Read more</a>
+                
             </div>
 
-            <div className="card1">
+            <div className="card8">
                  <img src={imom} alt="card__image" />
                 <h3 className="card__title">The best Kyoto restaurant to try Japanese food</h3>
                 <p className="card__desc">From tofu to teahouses, here's our guide to Kyoto’s best restaurants to visit...</p>
                 <a href="#" className="card__link">Read more</a>
             </div>
-            <div className="card2">
+            <div className="card9">
                  <img src={mask} alt= "card__image" />
                 <h3 className="card__title">The best Kyoto restaurant to try Japanese food</h3>
                 <p className="card__desc">From tofu to teahouses, here's our guide to Kyoto’s best restaurants to visit...</p>
                 <a href="#" className="card__link">Read more</a>
             </div>
-           <div className="card3">
+           <div className="card10">
                  <img src={mader} alt=""/>
                 <h3 className="card__title">The best Kyoto restaurant to try Japanese food</h3>
                 <p className="card__desc">From tofu to teahouses, here's our guide to Kyoto’s best restaurants to visit...</p>

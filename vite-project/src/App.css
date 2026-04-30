@@ -578,6 +578,30 @@ a:hover::after {
     font-size: 17px;
      line-height: 60px;
     letter-spacing: 0%;
+    color: #FB8F1D;
 }
 
+.trending{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card7{
+    width: 266px;
+}
+
+.tabiy{
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card__title{
+     font-weight: 700;
+    font-size: 19px;
+     line-height: 30px;
+    letter-spacing: 0%;
+    
+}
  
