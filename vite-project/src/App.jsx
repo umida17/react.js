@@ -177,7 +177,7 @@ function App(){
                 <div className="container">
                     <div className="section5-container">
                         <h3>Testimonials</h3>
-                         
+                         <img src={group} alt="" />
                     </div>
                 </div>
             </section>

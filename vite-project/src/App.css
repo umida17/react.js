@@ -12,6 +12,16 @@
     padding: 15px;
 }
 
+header {
+    height: 100px;
+    background: #e8e7e9;
+     position: fixed;    
+    top: 0;             
+    left: 0;          
+    width: 100%;      
+    z-index: 1000;    
+    background-position: center;
+}
 
 .section1-container{
     display: flex;
