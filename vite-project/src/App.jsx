@@ -8,7 +8,9 @@ import tog from "../src/assets/tog'.png"
 import daryo from "../src/assets/daryo.png"
 import piknik from "../src/assets/piknik.png"
 import Thousand from "../src/assets/Thousand-03.png"
-import foto from "../src/assets/foto.png"
+import group from "../src/assets/Group (10).png"
+ 
+ 
 function App(){
     return (
         <> 
@@ -169,8 +171,17 @@ function App(){
             </div>
            </section>
 
-  
-        
+
+
+            <section className="section5">
+                <div className="container">
+                    <div className="section5-container">
+                        <h3>Testimonials</h3>
+                         
+                    </div>
+                </div>
+            </section>
+
         </main>
 
          </>
