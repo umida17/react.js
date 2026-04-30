@@ -224,16 +224,16 @@ function App(){
                <a className="read" href="#">Read more</a>
             </div>
             <div className="card9">
-                 <img className="tabiy" src={mask} alt= "card__image" />
-                <h3 className="card__title">The best Kyoto restaurant to try Japanese food</h3>
-                <p className="desc">From tofu to teahouses, here's our guide to Kyoto’s best restaurants to visit...</p>
+                 <img className="tabiy2" src={mask} alt= "card__image" />
+                <h3 className="card__title1">Skip Chichen Itza and head to this remote Yucatan</h3>
+                <p className="desc">It’s remote and challenging to get,but braving the jungle and exploring these ruins without the...</p>
                <a className="read" href="#">Read more</a>
             </div>
            <div className="card10">
-                 <img src={mader} alt=""/>
+                 <img className="tabiy1" src={mader} alt=""/>
                 <h3 className="card__title">The best Kyoto restaurant to try Japanese food</h3>
-                <p className="card__desc">From tofu to teahouses, here's our guide to Kyoto’s best restaurants to visit...</p>
-                <a href="#" className="card__link">Read more</a>
+                <p className="desc">From tofu to teahouses, here's our guide to Kyoto’s best restaurants to visit...</p>
+                <a className="read" href="#">Read more</a>
             </div>
         </div>
     </div>
