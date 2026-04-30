@@ -218,16 +218,16 @@ function App(){
             </div>
 
             <div className="card8">
-                 <img src={imom} alt="card__image" />
+                 <img className="tabiy1" src={imom} alt="card__image" />
                 <h3 className="card__title">The best Kyoto restaurant to try Japanese food</h3>
-                <p className="card__desc">From tofu to teahouses, here's our guide to Kyoto’s best restaurants to visit...</p>
-                <a href="#" className="card__link">Read more</a>
+                <p className="desc">From tofu to teahouses, here's our guide to Kyoto’s best restaurants to visit...</p>
+               <a className="read" href="#">Read more</a>
             </div>
             <div className="card9">
-                 <img src={mask} alt= "card__image" />
+                 <img className="tabiy" src={mask} alt= "card__image" />
                 <h3 className="card__title">The best Kyoto restaurant to try Japanese food</h3>
-                <p className="card__desc">From tofu to teahouses, here's our guide to Kyoto’s best restaurants to visit...</p>
-                <a href="#" className="card__link">Read more</a>
+                <p className="desc">From tofu to teahouses, here's our guide to Kyoto’s best restaurants to visit...</p>
+               <a className="read" href="#">Read more</a>
             </div>
            <div className="card10">
                  <img src={mader} alt=""/>
