@@ -12,8 +12,8 @@ import group from "../src/assets/Group (10).png"
 import foto from "../src/assets/foto.png"
 import tabiat from "../src/assets/image 12 (3).png"   
 import imom from "../src/assets/image 13 (1).png"   
-import mask from "../src/assets/Mask Group (21).png"   
-import mader from "../src/assets/Mask Group (22).png"   
+import mask from "../src/assets/image 14 (1).png" 
+import mader from "../src/assets/image 15 (5).png" 
  
  
 function App(){
@@ -209,7 +209,7 @@ function App(){
         </div>
 
         <div className="trending__grid">
-            
+
            <div className="card">
                  <img src={tabiat} alt="card__image" />
                 <h3 className="card__title">The best Kyoto restaurant to try Japanese food</h3>

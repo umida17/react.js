@@ -559,23 +559,6 @@ a:hover::after {
 }
 
 
-/* Container va Grid */
-.trending__container { max-width: 1200px; margin: 0 auto; padding: 40px 20px; }
 
-.trending__top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px; }
-.trending__title { font-size: 28px; font-weight: 700; color: #000; }
-.trending__view-all { color: #FB8F1D; font-weight: 600; text-decoration: none; }
-
-.trending__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
-
-/* Card stilari */
-.card__image { width: 100%; height: 280px; object-fit: cover; border-radius: 20px; margin-bottom: 16px; }
-.card__title { font-size: 18px; margin-bottom: 8px; line-height: 1.3; }
-.card__desc { font-size: 14px; color: #666; margin-bottom: 12px; line-height: 1.5; }
-.card__link { color: #FB8F1D; font-weight: 700; text-decoration: none; }
-
-/* Responsive (Mobil uchun) */
-@media (max-width: 992px) { .trending__grid { grid-template-columns: repeat(2, 1fr); } }
-@media (max-width: 600px) { .trending__grid { grid-template-columns: 1fr; } }
 
  
