@@ -186,7 +186,7 @@ function App(){
                          <img src={group} alt="" />
                          <img src={group} alt="" />
                      </div>
-                        <p>“Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu, facilisis quis purus. Morbi blandit sit amet turpis nec”</p>
+                        <p className="lacus">“Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu, facilisis quis purus. Morbi blandit sit amet turpis nec”</p>
                         <h4>Edward Newgate</h4>
                         <p>Founder Circle</p>
                     </div>
@@ -195,6 +195,44 @@ function App(){
                     </div>
                 </div>
             </section>
+
+
+            <section className="trending">
+                <div className="trending__container">
+                  <div className="trending__top">
+            <h2 className="trending__title">Trending stories</h2>
+            <a href="#" className="trending__view-all">View all</a>
+        </div>
+
+        <div className="trending__grid">
+           <div className="card">
+                 <img src="rasm2.jpg" alt="Story" className="card__image">
+                <h3 className="card__title">The best Kyoto restaurant to try Japanese food</h3>
+                <p className="card__desc">From tofu to teahouses, here's our guide to Kyoto’s best restaurants to visit...</p>
+                <a href="#" className="card__link">Read more</a>
+            </div>
+
+            <div className="card">
+                 <img src="rasm2.jpg" alt="Story" className="card__image">
+                <h3 className="card__title">The best Kyoto restaurant to try Japanese food</h3>
+                <p className="card__desc">From tofu to teahouses, here's our guide to Kyoto’s best restaurants to visit...</p>
+                <a href="#" className="card__link">Read more</a>
+            </div>
+            <div className="card">
+                 <img src="rasm2.jpg" alt="Story" className="card__image">
+                <h3 className="card__title">The best Kyoto restaurant to try Japanese food</h3>
+                <p className="card__desc">From tofu to teahouses, here's our guide to Kyoto’s best restaurants to visit...</p>
+                <a href="#" className="card__link">Read more</a>
+            </div>
+           <div className="card">
+                 <img src="rasm2.jpg" alt="Story" className="card__image">
+                <h3 className="card__title">The best Kyoto restaurant to try Japanese food</h3>
+                <p className="card__desc">From tofu to teahouses, here's our guide to Kyoto’s best restaurants to visit...</p>
+                <a href="#" className="card__link">Read more</a>
+            </div>
+        </div>
+    </div>
+</section>
 
         </main>
 
